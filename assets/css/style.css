@@ -1,0 +1,70 @@
+body {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-image: url("https://assets.awwwards.com/awards/images/2015/04/pattern.jpg");
+    margin: 0px;
+  }
+  .topBorder{
+    width: 2048px;  
+    background-color: white;
+    margin: 0px auto 50px;
+    padding: 0px 0px -10px;
+    border-bottom: 2px solid #cccccc;
+    line-height: 89.5px;
+  }
+  .header {
+    width: 960px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin: 0 auto;
+  }
+  #logo {
+    background-color: #4aaaa5;
+    width: 240px;
+    font-size: 38px;
+    font-weight: bold;
+    color: white;
+    padding: 30px 25px 30px;
+  }
+  #nav {
+    float:right;
+  }
+  a:link, .decor {
+    color: #969696;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 0px 5px
+  }
+  .mainContainer {
+    width: 2048px;
+    margin: 0px 0px 50px;
+  }
+  .main {
+    width: 883px;
+    margin: 0px auto;
+    padding: 10px 40px;
+    border: .5px solid #dddddd;
+    background: #fff;
+  }
+  .section {
+    font-size: 38px;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 0px 0px 35px;
+    border-bottom: 5px solid #969696;
+  }
+  img {
+    float:left;
+    margin: 0px 30px 20px 0;
+  }
+  footer {
+    width: 2048px;
+    color: #ffff;
+    border-top: 8px solid #4aaaa5;
+    background: #666666;
+    padding: 30px 0px 0px;
+  }
+  .copyright {
+    width: 120px;
+    margin: 0px auto;
+  }
