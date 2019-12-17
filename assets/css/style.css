@@ -80,6 +80,26 @@ body {
     margin: 4px 2px;
     cursor: pointer;
   }
+  .gallery{
+    display: flex;
+    justify-content: space-between;
+  }
+  .photos {
+    position: relative;
+    width: 200px;
+    height: 150px;
+  }
+  .text {
+    position: absolute;
+    width: 200px;
+    padding: 10px 0px; 
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    color: #ffffff;
+    z-index: 1;
+    top: 60%;  
+  }
   footer {
     width: 2048px;
     color: #ffff;
