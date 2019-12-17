@@ -62,12 +62,12 @@ body {
     font-size: 22px;
   }
   input[type=text], textarea{
-    width: 99.5%;
+    width: 97.5%;
     line-height: 30px;
     font-size: 16px;
     color: #777777;
     margin: 5px 0px 0px;
-    padding: 5px 20px;
+    padding: 5px 0px 5px 20px;
     border-color: #dddddd;
   }
   input[type=submit] {
