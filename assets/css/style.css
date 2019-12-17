@@ -3,6 +3,7 @@ body {
     color: #777777;
     background-image: url("https://assets.awwwards.com/awards/images/2015/04/pattern.jpg");
     margin: 0px;
+    position: relative;
   }
   .topBorder{
     width: 2048px;  
@@ -41,7 +42,7 @@ body {
   .main {
     width: 883px;
     margin: 0px auto;
-    padding: 10px 40px;
+    padding: 10px 40px 25px;
     border: .5px solid #dddddd;
     background: #fff;
   }
@@ -57,12 +58,35 @@ body {
     float:left;
     margin: 0px 30px 20px 0;
   }
+  form{
+    font-size: 22px;
+  }
+  input[type=text], textarea{
+    width: 99.5%;
+    line-height: 30px;
+    font-size: 16px;
+    color: #777777;
+    margin: 5px 0px 0px;
+    padding: 5px 20px;
+    border-color: #dddddd;
+  }
+  input[type=submit] {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 14px 36px;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
   footer {
     width: 2048px;
     color: #ffff;
     border-top: 8px solid #4aaaa5;
     background: #666666;
     padding: 30px 0px 0px;
+    position: sticky;
   }
   .copyright {
     width: 120px;
