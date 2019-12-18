@@ -3,10 +3,13 @@ body {
     color: #777777;
     background-image: url("https://assets.awwwards.com/awards/images/2015/04/pattern.jpg");
     margin: 0px;
-    position: relative;
+    /* position: relative; */
+  }
+  .container {
+      display: grid;
   }
   .topBorder{
-    width: 2048px;  
+    /* width: 1024px;   */
     background-color: white;
     margin: 0px auto 50px;
     padding: 0px 0px -10px;
@@ -35,13 +38,13 @@ body {
     text-decoration: none;
     padding: 0px 5px
   }
-  .mainContainer {
-    width: 2048px;
+  /* .mainContainer {
+    width: 1024px;
     margin: 0px 0px 50px;
-  }
+  } */
   .main {
-    width: 883px;
-    margin: 0px auto;
+    width: 879px;
+    margin: 0px auto 50px;
     padding: 10px 40px 25px;
     border: .5px solid #dddddd;
     background: #fff;
@@ -89,6 +92,10 @@ body {
     width: 200px;
     height: 150px;
   }
+  .pic {
+      width: 200px;
+      height: 150px;
+  }
   .text {
     position: absolute;
     width: 200px;
@@ -101,12 +108,13 @@ body {
     top: 60%;  
   }
   footer {
-    width: 2048px;
+    /* width: 2048px; */
     color: #ffff;
     border-top: 8px solid #4aaaa5;
     background: #666666;
     padding: 30px 0px 0px;
     position: sticky;
+    bottom: 0%;
   }
   .copyright {
     width: 120px;
