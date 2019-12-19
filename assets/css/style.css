@@ -84,8 +84,8 @@ body {
     cursor: pointer;
   }
   .gallery{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 2;
   }
   .photos {
     position: relative;
