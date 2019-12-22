@@ -40,11 +40,7 @@ body {
   .main {
     width: 879px;
     margin: 0px auto 100px;
-<<<<<<< HEAD
     padding: 10px 40px 40px;
-=======
-    padding: 10px 40px 25px;
->>>>>>> 38e8bb84955469876f9340534f800697a6fa9620
     border: .5px solid #dddddd;
     background: #fff;
   }
