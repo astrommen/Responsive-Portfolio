@@ -131,7 +131,7 @@ footer {
     font-size: 95%;
   }
   #nav {
-    padding: 3.8% 0 0;
+    padding: 3.1% 0 0;
   }
 
   .main {
@@ -170,11 +170,14 @@ footer {
     margin: 0%;
     padding:0%;
     font-size: 150%;
-    width: 102%;
+    width: 100%;
     /* max-width: 360; */
   }
   .main {
     width: 82%;
+  }
+  form{
+    width: 97.5%;
   }
   img, .photos {
     display: block;
