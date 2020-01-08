@@ -3,6 +3,7 @@ body {
   color: #777777;
   background-image: url("https://assets.awwwards.com/awards/images/2015/04/pattern.jpg");
   margin: 0px;
+  box-sizing: border-box;
 }
 .container {
     display: grid;
@@ -12,7 +13,6 @@ body {
   margin: 0px auto 40px;
   padding: 0px 0px -10px;
   border-bottom: 2px solid #cccccc;
-  /* line-height: 89.5px; */
   line-height: 70px;
 }
 .header {
@@ -86,16 +86,14 @@ input[type=submit] {
 .gallery{
   display: grid;
   grid-template-columns: 230px 230px;
-  grid-gap: 30px 0px;
+  grid-gap: 30px;
 }
 .photos {
   position: relative;
   width: 200px;
-  height: 150px;
 }
 .pic {
     width: 200px;
-    height: 150px;
 }
 .text {
   position: absolute;
@@ -121,74 +119,126 @@ footer {
 .copyright {
   width: 120px;
   margin: 0px auto;
-}
-@media screen and (max-width: 768px) {
-.header{
-  width: 93%;
-  margin: 0px auto;
-  font-size: 95%;
-}
-#nav {
-  padding: 3.8% 0 0;
+  text-align: center;
 }
 
-.main {
-  width: 82%;
-  margin: 0px auto 150px;
-  line-height: 30px;
+@media screen and (max-width: 980px) and (min-width: 769px) {
+  .header {
+    width:90%;   
+  }
+  
+  .main {
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+  }
+  form {
+    width: 98%;
+  }
+  .gallery {
+    width: 100%;
+    grid-template-columns: auto auto;
+    grid-column-gap: 30px;
+  }
+  .photo, .pic, .text {
+    width: 110%;
+  }
 }
 
-.copyright {
-  margin-bottom: 35px;
-  font-size: 75%;
-}
+@media screen and (max-width: 768px) and (min-width: 641px) {
+  .header{
+    width: 93%;
+    margin: 0px auto;
+    font-size: 95%;
+  }
+  #nav {
+    padding: 3.8% 0 0;
+  }
+
+  .main {
+    width: 82%;
+    height: auto;
+    margin: 0px auto 150px;
+    line-height: 30px;
+  }
+
+  form {
+    width: 99%;
+  }
+
+  input[type=text], textarea{
+    line-height: 10px;
+    overflow: scroll;
+  }
+
+  .copyright {
+    margin-bottom: 35px;
+    font-size: 75%;
+  }
+
+  .gallery {
+    width: 100%;
+    grid-template-columns: auto auto;
+    grid-gap: 30px 20px;
+  }
+  .photo, .pic, .text {
+    width: 153%;
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 640px){
-.header{
-  width:100%;
-  overflow: auto;
-  margin: 0;
-  padding: 0;
-}
-#logo{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  max-width: 360;
-  text-align: center;
-  margin: 0px;
-}
-#nav {
-  display: flex;
-  justify-content: center;
-  margin: 0%;
-  padding:0%;
-  font-size: 150%;
-  width: 100%;
-  max-width: 360;
-}
-.main {
-  width: 75%;
-  height: auto;
-}
-img, .photos {
-  width: 99%;
-}
-.pic {
-  width: 100%;
-  height: auto;
-  float: center;
-}
-.text{
-  width: 101%;
-  top: 120%; 
-  font-size: 150%;
-}
+  .header{
+    width:100%;
+    margin: 0;
+    padding: 0;
+  }
+  #logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 360;
+    text-align: center;
+    margin-right: auto;
+    padding: 22px 0;
+  }
+  #nav {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    padding:0%;
+    font-size: 150%;
+    width: 100%;
+  
+  }
+  .main {
+    width: 75%;
+    height: auto;
+  }
+  img, .photos {
+    width: 99%;
+  }
+  input[type=text], textarea{
+    line-height: 10px;
+    overflow: scroll;
+  }
   .gallery{
     overflow:auto;
-  display: grid;
-  grid-template-columns: 100%;
-  grid-gap: 11%; 
-}
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: .01%; 
+  }
+  .pic {
+    width: 100%;
+    float: center;
+  }
+  .text{
+    width: 100%;
+    top: 50%; 
+    font-size: 150%;
+  }
+  footer {
+    padding: 15px 0;
+    font-size: 75%;
+  }
 }
